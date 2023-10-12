@@ -81,6 +81,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_2a3st"]
+radius = 8.06226
 
 [node name="coin" type="Area2D"]
 collision_layer = 8
@@ -88,7 +89,6 @@ script = ExtResource("1_ldh4f")
 
 [node name="anim" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_dnf5p")
-animation = &"collect"
 autoplay = "default"
 
 [node name="collision" type="CollisionShape2D" parent="."]
